@@ -11,7 +11,7 @@ androidApplication {
         implementation("org.apache.commons:commons-text:1.11.0")
         implementation(project(":utilities"))
 
-        // Jetpack Compose dependencies (latest available stable is 1.6.1)
+        // Jetpack Compose dependencies (runtime/artifacts at 1.6.1, compiler plugin at 1.6.10)
         implementation("androidx.activity:activity-compose:1.9.0")
         implementation("androidx.compose.ui:ui:1.6.1")
         implementation("androidx.compose.ui:ui-tooling-preview:1.6.1")
